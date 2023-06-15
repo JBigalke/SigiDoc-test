@@ -28,8 +28,7 @@
                 <person xml:id="anonymous">
                     <persName>
                         <forename>
-                            <reg>Anonymous SIehst du das?</reg>
-                        </forename>
+                            Einszweidrei <reg>Anonymous</reg>                        </forename>
                     </persName>
                 </person>
                 <person sex="m" xml:id="justinian" resp="#AS">
