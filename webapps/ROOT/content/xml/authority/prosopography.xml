@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- LAST MODIFIED: 2023-03-15 -->
-
-<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,14 +21,14 @@
                 <ab/>
             </sourceDesc>
         </fileDesc>
-    </teiHeader>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
     <text>
         <body>
             <listPerson>
                 <person xml:id="anonymous">
                     <persName>
                         <forename>
-                            <reg>Anonymous</reg>
+                            <reg>Anonymous SIehst du das?</reg>
                         </forename>
                     </persName>
                 </person>
@@ -71,8 +70,7 @@
                     <bibl>
                         <ptr target="PmbZOnline"/>
                         <citedRange>PmbZ 3702/corr.</citedRange>
-                        <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ14851/html"
-                        />
+                        <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ14851/html"/>
                     </bibl>
                 </person>
                 <person sex="m" xml:id="constans-II" source="TM_02" resp="#AS">
@@ -81,8 +79,7 @@
                             <!--<reg xml:lang="grc">Κώνστας Β΄</reg>-->
                             <reg xml:lang="la">Constans II</reg>
                             <reg xml:lang="en">Constans II</reg>
-                            <orig>Constantinos <surname type="patronymic"
-                                >Constantinou</surname></orig>
+                            <orig>Constantinos <surname type="patronymic">Constantinou</surname></orig>
                         </forename>
                     </persName>
                     <floruit notBefore="0641" notAfter="0668">Mid 7th century</floruit>
@@ -94,8 +91,7 @@
                     <bibl>
                         <ptr target="PmbZOnline"/>
                         <citedRange>PmbZ 3691/corr.</citedRange>
-                        <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ14839/html"
-                        />
+                        <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ14839/html"/>
                     </bibl>
                 </person>
                 <person sex="f" xml:id="anastasia" resp="#AS">
@@ -116,8 +112,7 @@
                     <bibl>
                         <ptr target="PmbZOnline"/>
                         <citedRange>PmbZ 228</citedRange>
-                        <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ11310/html"
-                        />
+                        <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ11310/html"/>
                     </bibl>
                 </person>
                 <person sex="m" xml:id="georgios-1" source="TM_03" resp="#AS">
@@ -678,11 +673,11 @@
                     <persName>
                         <forename>
                             <reg xml:lang="grc">Ἰωάννης</reg>
-                            <orig source="S_80"></orig>
+                            <orig source="S_80"/>
                         </forename>
                         <surname>
                             <reg xml:lang="grc">Χρυσοβέργης</reg>
-                            <orig source="S_80"></orig>
+                            <orig source="S_80"/>
                         </surname>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
@@ -696,7 +691,7 @@
                     <persName>
                         <forename>
                             <reg xml:lang="grc">Μιχαήλ</reg>
-                            <orig source="S_2"></orig>
+                            <orig source="S_2"/>
                         </forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
@@ -705,11 +700,11 @@
                     <persName>
                         <forename>
                             <reg xml:lang="grc">Κώνσταντῖνος</reg>
-                            <orig source="SB_301"></orig>
+                            <orig source="SB_301"/>
                         </forename>
                         <surname>
                             <reg xml:lang="grc">Σεναχερείμ</reg>
-                            <orig source="SB_301"></orig>
+                            <orig source="SB_301"/>
                         </surname>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
@@ -723,7 +718,7 @@
                     <persName>
                         <forename>
                             <reg xml:lang="grc">Λέων</reg>
-                            <orig source="SB_16"></orig>
+                            <orig source="SB_16"/>
                         </forename>
                     </persName>
                     <floruit notBefore="1001" notAfter="1100">11th century</floruit>
@@ -778,7 +773,7 @@
                         </forename>
                         <surname>
                             <reg xml:lang="grc">Ἀλουσιανός</reg>
-                            <orig source="SB_450"></orig>
+                            <orig source="SB_450"/>
                         </surname>
                     </persName>
                     <floruit notBefore="1080" notAfter="1100">Late 11th century</floruit>
